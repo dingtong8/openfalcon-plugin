@@ -1,0 +1,25 @@
+# github.com/astaxie/beego v1.9.3-0.20180708081135-08c3ca642eb4
+## explicit
+github.com/astaxie/beego/logs
+# github.com/davecgh/go-spew v1.1.1
+## explicit
+github.com/davecgh/go-spew/spew
+# github.com/go-ini/ini v1.64.0
+## explicit
+github.com/go-ini/ini
+# github.com/pkg/errors v0.8.1-0.20180311214515-816c9085562c
+## explicit
+github.com/pkg/errors
+# github.com/pmezard/go-difflib v1.0.0
+## explicit
+github.com/pmezard/go-difflib/difflib
+# github.com/sebdah/goldie v0.0.0-20180424091453-8784dd1ab561
+## explicit
+github.com/sebdah/goldie
+# github.com/stretchr/testify v1.2.2
+## explicit
+github.com/stretchr/testify/assert
+# github.com/ziutek/mymysql v1.5.5-0.20180827085628-6b05b0cf718f
+## explicit
+github.com/ziutek/mymysql/mysql
+github.com/ziutek/mymysql/native

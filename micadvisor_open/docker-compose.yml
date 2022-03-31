@@ -1,0 +1,21 @@
+version: '3.5'
+
+services:
+  falcon-micadvisor:
+    container_name: falcon-micadvisor
+    image: micadvisor:latest
+    #network_mode: host
+    restart: always
+    ports:
+      - 18080:18080
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /home/dingtong/open-falcon/micadvisor_open/log/cadvisor/:/home/work/uploadCadviosrData/log
+      - /home/data/docker/:/var/lib/docker:ro
+      - /home/data/docker/containers:/home/docker/containers:ro
+    environment:
+      - Interval=60
+      - TZ=Asia/Shanghai
+
