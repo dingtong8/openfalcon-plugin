@@ -7,7 +7,7 @@
     "smtp": {
         "addr": "smtp.qq.com:25",
         "username": "2727250655@qq.com",
-        "password": "lcwdsazocsvbdecb",
+        "password": "-------------------------",
         "from": "2727250655@qq.com",
         "tls":false,
         "anonymous":false,

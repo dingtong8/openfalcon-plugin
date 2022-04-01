@@ -40,16 +40,15 @@ package fastping
 import (
 	"errors"
 	"fmt"
+	"github.com/golang/net/icmp"
+	"github.com/golang/net/ipv4"
+	"github.com/golang/net/ipv6"
 	"log"
 	"math/rand"
 	"net"
 	"sync"
 	"syscall"
 	"time"
-
-	"golang.org/x/net/icmp"
-	"golang.org/x/net/ipv4"
-	"golang.org/x/net/ipv6"
 )
 
 const (
